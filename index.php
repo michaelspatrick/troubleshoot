@@ -27,7 +27,7 @@ setcookie('nocache', '1', 0, '/', '', true, true);
 $logFile = __DIR__ . '/client-diagnostics.log'; // Make sure the web server can write here
 $logJson  = true;         // Write a JSON line to the log
 $logHuman = true;         // Also write a human-readable block to the log
-$resolveReverseDNS = false; // set true if you want reverse DNS (can be slow)
+$resolveReverseDNS = true; // set true if you want reverse DNS (can be slow)
 $setTestCookie = true;    // tries to detect cookies enabled on refresh
 $showAllHeaders = true;   // show HTTP request headers in output
 $trustedProxyHeaders = [
